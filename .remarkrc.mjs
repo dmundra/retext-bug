@@ -1,5 +1,6 @@
 import remarkRetext from "remark-retext";
-import retextSentenceSpacing from "retext-sentence-spacing"
+import retextSentenceSpacing from "retext-sentence-spacing";
+import retextEnglish from "retext-english";
 import unified from "unified";
 
 const config = {
@@ -8,9 +9,7 @@ const config = {
     [
       // Parse the Markdown as English using retext.
       remarkRetext,
-      unified()
-        // Load linters.
-        .use(retextSentenceSpacing),
+      unified().use(retextEnglish).use(retextSentenceSpacing),
     ],
   ],
 };
