@@ -1,0 +1,26 @@
+{
+  "name": "retext-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zamiell/retext-bug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Zamiell/retext-bug/issues"
+  },
+  "homepage": "https://github.com/Zamiell/retext-bug#readme",
+  "devDependencies": {
+    "remark-cli": "^10.0.1",
+    "remark-retext": "^5.0.1",
+    "retext-sentence-spacing": "^5.2.0",
+    "unified": "9.2.2"
+  }
+}
