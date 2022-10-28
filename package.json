@@ -19,6 +19,7 @@
   "homepage": "https://github.com/Zamiell/retext-bug#readme",
   "devDependencies": {
     "remark-cli": "^10.0.1",
+    "remark-gfm": "^3.0.1",
     "remark-retext": "^5.0.1",
     "retext-english": "^4.1.0",
     "retext-sentence-spacing": "^5.2.0",
